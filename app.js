@@ -36,3 +36,21 @@ if(check){
 }else{
     console.log("Falsy")
 }
+
+// parseInt & parseFloat
+// Converts Sting to integer or float 
+let myStr = "23.5";
+console.log(parseInt(myStr)); // Output: 23
+console.log(parseFloat(myStr)); // Output: 23.5
+let myStr2 = "23B.6";
+console.log(parseInt(myStr2)); // Output: 23
+let myStr3 = "0006";
+console.log(parseInt(myStr3)); // Output: 6
+let myStr4 = "-23";
+console.log(parseInt(myStr4)); // Output: -23
+let myStr5 = "abc";
+console.log(parseInt(myStr5)); // Output NaN
+let myStr6 = "&23";
+console.log(parseInt(myStr6)); // Output NaN
+
+
