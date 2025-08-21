@@ -34,8 +34,6 @@ Currently, this repo contains some initial code snippets and programs in JavaScr
 ## 🤝 Contributions
 
 If you are learning JavaScript too, you’re welcome to open issues or pull requests with your suggestions, fixes, or code examples.
-
 ---
-
 Happy coding! 🎉
 
