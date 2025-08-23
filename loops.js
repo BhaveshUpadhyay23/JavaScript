@@ -52,17 +52,54 @@ while(val2<=10){
 }
 
 // Use of do-while
-let positiveNum;
-do{
-    positiveNum = prompt("ENTER ANY POSITIVE NUMBER");
-}while((isNaN(positiveNum)) || (positiveNum < 0));
-console.log(positiveNum);
+// let positiveNum;
+// do{
+//     positiveNum = prompt("ENTER ANY POSITIVE NUMBER");
+// }while((isNaN(positiveNum)) || (positiveNum < 0));
+// console.log(positiveNum);
 
-// Sum of N natural numbers
+// // Sum of N natural numbers
 
-let sum = 0;
-let lastNum = prompt("Enter Last Number");
-for(let i=1; i<=lastNum; i++){
-    sum = sum+i;
+// let sum = 0;
+// let lastNum = prompt("Enter Last Number");
+// for(let i=1; i<=lastNum; i++){
+//     sum = sum+i;
+// }
+// console.log(`Sum of N natural number is: ${sum}`);
+
+// Prime Number
+// let digit = prompt("ENTER ANY NUMBER TO CHECK IF ITS A PRIME NUMBER OR NOT");
+let digit = 100;
+for(let i=2; i<digit; i++){
+    if(digit%i == 0){
+        console.log(`${digit} is NOT a prime number`);
+        console.log(i);
+        break;
+    } else{
+        console.log(digit, "is a PRIME number")
+        break;
+    }
 }
-console.log(`Sum of N natural number is: ${sum}`);
+
+
+// Leap Year
+let year = 2020;
+// Method 1
+if (year%4 == 0){
+    if(year%100 != 0){
+        console.log(`${year} is a leap year`);
+    }else{
+        console.log(`${year} is NOT a leap year`);
+    }
+}
+else if(year%400 == 0){
+console.log(`${year} is NOT a leap year`);
+}
+else{
+console.log(`${year} is NOT a leap year`);
+}
+
+// Method 2
+if(year%4 == 0 && year%100 != 0 || year%400 == 0){
+    console.log(`${year} is a leap year`);
+}
