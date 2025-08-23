@@ -41,7 +41,6 @@ if(isCitizen){
     console.log("False")
 }
 
-
 // Switch
 console.log("------------------Switch------------------")
 
@@ -83,3 +82,4 @@ switch(areaOfShape){
             break
         default : console.log("Shape Not Available");
 }
+
