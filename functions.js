@@ -47,3 +47,39 @@ let multiply = function (a,b){
 }
 
 console.log(`Product ${multiply(2,5)}`);
+
+
+//IIFE: Immediately Invoked Function Expression
+/*
+    executed immediately after its creation or when page loads
+*/
+
+(function (){
+    alert("Welcome!")
+})();
+
+(function(a,b){
+    return a+b;
+})(4,6);
+
+// Default Parameters
+function product(a,b=10){
+    return a*b;
+}
+console.log(product(5)); //50
+console.log(product(5,19)); //95
+
+
+// Arrow Function
+
+let sum = (a,b) => {
+    console.log(a+b);
+}
+sum(4,5);
+
+let diff = (a,b) => console.log(a-b);
+diff(5,4);
+
+
+
+
