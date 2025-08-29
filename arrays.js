@@ -1,4 +1,4 @@
-let languages = ["Python", "JavaScript", "Java", "C++", "C#", "Go", "Ruby", "Swift", "Rust", "TypeScript"];
+let languages = ["Python", "JavaScript", "Java", "C++", "C#", "Go", "Ruby", "Swift", "TypeScript"];
 
 // Accessing Elements
 console.log(languages[0]);
@@ -34,3 +34,22 @@ languages.map((curEle, index, arr)=>{
 */
 
 console.log(...languages);
+
+// Push
+languages.push("Rust"); 
+
+//Pop
+languages.pop();
+
+//Shift
+languages.shift();
+
+//Unshift
+languages.unshift("Pearl");
+
+// Splice
+// (start, delcound, additem1, additem2)
+console.log(languages.splice(1,1,"VSC"));
+
+// indexOf
+console.log(languages.indexOf("Ruby"));
