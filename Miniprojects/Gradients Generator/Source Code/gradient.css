@@ -22,7 +22,7 @@ body{
 
 .btn{
     font-size: large;
-    width: fit-content;
+    width: 6rem;
     height: auto;
     border: 1px solid;
     border-radius: 5px;
@@ -44,4 +44,14 @@ h4{
     background-color: rgba(255, 255, 255, 0.091);
     cursor: pointer;
     margin-top: 0.4rem;
+}
+
+@media (max-width: 481px) {
+  .btn{
+    font-size: medium;
+    /* display: inline; */
+    width: 5rem;
+    height: auto;
+    margin: 1rem 0.1rem 1rem 0rem;
+  }
 }
