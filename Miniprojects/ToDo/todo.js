@@ -31,12 +31,13 @@ const enteredTask = () => {
 
     console.log(taskList);
     enteredTaskValu.value = "";
+
+// Delete Task
+    // delBtn.addEventListener("click",()=>{
+    //     console.log("Task Deleted Successfully");
+// })
 }
 
-// delBtn.addEventListener("click",()=>{
-//     console.log("Task Deleted Successfully");
-
-// })
 
 // doneBtn.addEventListener("click",()=>{
 //     console.log("Task Completed");
