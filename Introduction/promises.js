@@ -44,12 +44,12 @@ luckyDraw()
 
 // Methods
 
-Promise.all
+Promise.all([pr1, pr2])
 // wait for All promise to complete successfully (resolve)
 
-Promise.allSettled
+Promise.allSettled([pr1, pr2])
 // wait for All promse to complete
 
-Promise.race
+Promise.race([pr1, pr2])
 // interested in the result of the first promise that completes
 
